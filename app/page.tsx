@@ -20,6 +20,26 @@ export default function Home() {
           </div>
         </div>
       </header>
+      <main className="flex-1 container mx-auto px-4 py-12">
+        
+      </main>
+      <footer className="border-t-1 border-gray-800 py-6 bg-gray-950">
+      <div className="container mx-auto px-4">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-2">
+              <div className="bg-purple-800 p-2 rounded-lg">
+                  <FileImage className="h-3 w-3  text-white"/>
+              </div>
+              <div className="flex items-center">
+                <h1 className="text-white text-lg font-bold">Piccon</h1>
+                <h1 className="font-extrabold text-xl text-purple-800">.</h1>
+              </div>
+              
+            </div>
+              
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
